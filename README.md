@@ -1,5 +1,4 @@
-# cash-flow
-
+# finance-cash-flow-api
 The Cash flow cell: its own API (Railway, serverless) and its own Neon
 database, first generated from `cell.yaml` (one of the ten finance
 services split on 2026-10-12). It
@@ -8,8 +7,8 @@ HTTP with the caller's token.
 
 | | |
 |---|---|
-| API | Railway project `cash-flow`, service `cash-flow-api` (Serverless) |
-| Data | Neon project `cash-flow`, database `cash_flow` |
+| API | Railway project `finance-cash-flow-api`, service `cash-flow-api` (Serverless) |
+| Data | Neon project `finance-cash-flow-api`, database `cash_flow` |
 | Registry | solo-empire `repository-catalog/registries/online-systems.yaml` (`cash-flow`) |
 
 ## API
